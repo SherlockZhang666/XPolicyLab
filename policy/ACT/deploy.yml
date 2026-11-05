@@ -39,3 +39,7 @@ dec_layers: 7
 pre_norm: false
 dropout: 0.1
 camera_names: ["cam_head", "cam_right_wrist", "cam_left_wrist"]
+
+# Local deployment: allow first GPU inference compilation without heartbeat expiry.
+ws_ping_interval_s: null
+ws_ping_timeout_s: null
